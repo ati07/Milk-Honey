@@ -5,6 +5,8 @@ import Header from "../../Components/Header/Header";
 import { Button } from "@material-ui/core";
 import "./Home.css";
 import Slider from "../../Components/Slider/Slider";
+import ConicalSectionabove from "../../Components/ConicalSectionabove/ConicalSectionabove";
+
 function Home() {
   const [x, setX] = useState(20);
   const [y, setY] = useState(50);
@@ -220,6 +222,9 @@ function Home() {
           <Button>VIEW MORE</Button>
         </div>
       </div>
+          <div className='home_section7'>
+            <ConicalSectionabove/>
+          </div>
     </div>
   );
 }

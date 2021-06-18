@@ -164,3 +164,10 @@
 .Service_btn>button:hover{
     background-color: aliceblue;
 }
+.home_section7{
+    position: relative;
+    top: 4000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
